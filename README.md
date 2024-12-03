@@ -59,23 +59,23 @@ After generating the roll plots, a normalization threshold of -0.8 is applied. P
 |------------------------------------------------------|------------------------------------------------|
 | Training Loss of the Stable Diffusion                | Training Loss of the RBM                       |
 
-## 2.6.Run
+## **2.6.Run**
 
-#### Generate the Roll Plots for training
+#### **Generate the Roll Plots for training**
 
 ```bash
 python SD_process.py
 python RBM_process.py
 ```
 
-#### Training
+#### **Training**
 
 ```bash
 python SD_train.py
 python RBM_train.py
 ```
 
-#### Convert the Roll plots into the MIDI&WAV files
+#### **Convert the Roll plots into the MIDI&WAV files**
 
 ```bash
 python convert.py
